@@ -1,0 +1,593 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/*全体の背景*/
+
+.profile{
+  background-color: #f5f5f5;
+}
+
+/*ここからはheaderのstyle*/
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header{
+  width: 100%;
+  background-color: #EC715F;
+  position: fixed;
+}
+
+
+nav{
+  width: 90%;
+  height: 70px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav .fa{
+  display: none;
+}
+
+.title{
+  float: left;
+  width: 200px;
+  height: 70px;
+  line-height: 60px;
+}
+
+.top-menu{
+  float: right;
+  line-height: 70px;
+}
+
+.top-menu-item{
+  float: left;
+  margin:0 30px;
+  list-style: none; 
+}
+
+.top-menu-item a{
+  text-decoration: none;
+  color: #FAFAFA;
+}
+
+/*PC版ではハンバーガーメニューは日表示する設定_ここから*/
+.humb-menu{
+    display: none;
+  }
+/*PC版ではハンバーガーメニューは日表示する設定_ここまで*/
+
+
+/*ヘッダー終わり*/
+
+/*メインビジュアルここから*/
+
+.mainvisi{
+  padding-top: 70px;
+  background-image: url('../image/code.png');
+  height: 650px;
+  background-size: cover;
+}
+
+.mainvisi h1,h4{
+  color: #FAFAFA ;
+}
+
+.mainvisi h1{
+  padding-top: 200px;
+  font-size: 50px;
+  padding-bottom: 10px; 
+  text-align: center;
+}
+.mainvisi h4{
+  text-align: center;
+}
+
+/*メインビジュアルここまで*/
+
+/*各ページのリードタイトルとリード文のstyleここから*/
+
+.leadparagraph h2{
+  padding-top: 90px;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+.leadparagraph p{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.underline{
+  border: solid 0.5px #EC715F;
+  width: 70px;
+  text-align: center;
+  max-width: 50%; 
+  margin:0 auto; 
+}
+
+/*各ページのリードタイトルとリード文のstyleここまで*/
+
+
+/*Portfolioここから*/
+
+.portfolio {
+  background-color: #f5f5f5;
+  height: 900px;  
+  padding-bottom: 90px;
+}
+
+.image-group .clearfix::after{
+  content:"";
+  display: block;
+  clear:both;
+}
+
+.image-group{
+  width: 950px;
+  margin:0 auto; 
+}
+
+
+.image{
+  width: 300px;
+  height: 300px;
+  /*background-color: red;*/
+  /*border:solid 1px white;*/
+  float: left;
+  margin: 5px;
+}
+
+.portimage1{
+  background-size: 300px 300px;
+  background-image: url('../image/sketch.jpg');  
+}
+
+.portimage2{
+  background-size: 300px 300px;
+  background-image: url('../image/write.jpg');  
+}
+
+.portimage3{
+  background-size: 300px 300px;
+  background-image: url('../image/talk.jpg');  
+}
+
+.production1{
+  background-size: 300px 300px;
+  background-image: url('../image/websuku.png');
+  /*padding: 5px;*/
+}
+
+.production2{
+  background-size: 300px 300px;
+  background-image: url('../image/webcamp.png');
+}
+
+.production3{
+  background-size: 300px 300px;
+  background-image: url('../image/webcamp-mother.png');
+}
+
+.production1 p{
+  float:none;
+  display: none;
+  color: white;
+  text-align: center;
+  line-height: 300px;
+  font-size: 30px;
+  width: 300px;
+  height: 300px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.production2 p{
+  float:none;
+  display: none;
+  color: white;
+  text-align: center;
+  line-height: 300px;
+  font-size: 30px;
+  width: 300px;
+  height: 300px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.production3 p{
+  float:none;
+  display: none;
+  color: white;
+  text-align: center;
+  line-height: 300px;
+  font-size: 30px;
+  width: 300px;
+  height: 300px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+/*Portfolioここまで*/
+
+/*Featureここから*/
+
+.feature{
+}
+
+
+.mainfeature .fa{
+  font-size: 80px;
+}
+
+.mainfeature{
+  width: 980px;
+  height: 300px;
+  margin:0 auto; 
+  padding-bottom: 90px;
+}
+
+
+.information1{
+  float: left;
+  width: 300px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+.strength{
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+
+.lead p{
+  display: inline-block;
+
+}
+/*Featureここまで*/
+
+
+
+/*Profileここから*/
+.mainprofile{
+  width: 900px;
+  height: 250px;
+  margin:0 auto; 
+  padding-bottom: 90px;
+}
+
+.information3{
+  width: 1000px;
+}
+
+.profile_image{
+  text-align: center;
+  width: 400px;
+}
+
+.profile_image img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.profile_parts{
+  float:left;
+}
+
+.profile_info{
+  width: 450px;
+  padding-left: 50px;
+}
+
+.name_title{
+  padding-bottom: 10px;
+}
+
+.skils_title{
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+/*Profileここまで*/
+
+
+/*Contactここから*/
+.maincontact{
+  width: 900px;
+  height: 130px;
+  margin:0 auto; 
+  padding-bottom: 90px;
+}
+
+.information4{
+  width: 910px;
+}
+
+.contact_parts{
+  float:left;
+}
+
+.contact_info{
+  width: 450px;
+}
+
+.mail_title{
+  padding-left: 200px;
+  padding-bottom: 5px;
+}
+
+.mail_info{
+  padding-left: 200px;
+}
+
+.tel_title{
+  padding: 20px 0px 5px 200px;
+}
+
+.tel_info{
+  padding-left: 200px;
+}
+
+.sns_info{
+  width: 450px;
+}
+
+.sns_title{
+  padding:0 0 5px 100px;
+}
+
+.sns_mark{
+  padding-left: 100px;
+}
+
+.sns_mark .fa{
+  font-size: 50px;
+}
+/*Contactここまで*/
+
+/*フッターここから*/
+.footer{
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #EC715F;
+}
+
+small{
+  color: #FAFAFA;
+}
+
+/*フッターここまで*/
+
+
+/*Jqueryテスト*/
+
+#container{
+    height: 500px; /ここの高さはいくつでも構いません/
+}
+
+/*.box-group .clearfix::after{
+  content:"";
+  display: block;
+  clear:both;
+}
+
+.box-group{
+  width: 610px;
+  margin:0 auto;
+}
+
+.box{
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-color: lime;
+  border:1px solid gray;
+}
+
+.box p{
+  display: none;
+  width: 200px;
+  height: 200px;
+  color: white;
+  background-color: rgba(0,0,0,5);
+}*/
+
+
+/*レスポンシブデザイン対応*/
+
+@media (max-width: 767px){
+  .top-menu-item{
+    display: none;
+  }
+
+/*headerここから*/
+
+  .humb{
+    float: right;
+    margin-top: 9px;
+    line-height: 70px;
+    width: 50px;
+    height: 50px;
+    border: solid 1px #FAFAFA;
+  }
+
+  .humb .fa{
+    color: #FAFAFA;
+    font-size: 40px;
+    line-height: 52px;
+    display: inline;
+  }
+
+/*ハンバーガーメニュークリック時の動作ここから*/
+
+  .humb-menu li{
+    border-top: solid 0.5px #FAFAFA;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+  }
+
+  .humb-menu-item a{
+    text-decoration: none;
+    color: #FAFAFA
+  }
+/*ハンバーガーメニュークリック時の動作ここまで*/
+
+  
+/*headerここまで*/
+
+/*Portfolioここから*/
+
+  .portfolio{
+    width: 100%;
+    height: 1200px;
+  }
+
+  .image-group{
+    width: 100%;
+  }
+
+  .image-grooup .cleafix::after{
+    width: 100%;
+  }
+
+
+  .image{
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 5px;
+  }
+
+  .portimage1{
+    display: none;
+  }
+
+ .portimage2{
+    display: none;
+  }
+
+ .portimage3{
+    display: none;
+  }  
+
+
+/*Portfolioここまで*/
+
+/*featureここから*/
+
+  .mainfeature{
+    width: 100%;
+    height: 790px;
+  }
+
+  .information0{
+    width: 100%;
+  }
+
+  .information1{
+    float: none;
+    width: 100%;
+  }
+
+  .lead p{
+    padding: 20px;
+  }
+
+/*featureここまで*/
+
+/*Profileここから*/
+  .profile_parts{
+    float: none; 
+  }
+
+  .mainprofile{
+    width: 100%;
+    height: 600px;
+  }
+
+  .information3{
+    width: 100%;
+  }
+
+  .profile_image{
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .profile_info{
+    text-align: center;
+    width: 100%;
+    padding: 10px; 
+  }
+
+/*Profileここまで*/
+
+/*Contactここから*/
+  .maincontact{
+    width: 100%;
+    height: 300px;
+    margin:0 auto; 
+    padding-bottom: 90px;
+  }
+
+  .information4{
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact_parts{
+    float:none;
+  }
+
+  .contact_info{
+    width: 100%;
+  }
+
+  .mail_title{
+    padding: 10px;
+  }
+
+  .mail_info{
+    padding: 10px;
+  }
+
+  .tel_title{
+    padding: 10px;
+  }
+
+  .tel_info{
+    padding: 10px;
+  }
+
+  .sns_info{
+    width: 100%;
+  }
+
+  .sns_title{
+    padding:10px;
+  }
+
+  .sns_mark{
+    padding: 10px;
+  }
+
+  .sns_mark .fa{
+    font-size: 70px;
+  }
+
+/*Contactここまで*/
+
+}
